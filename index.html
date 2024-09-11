@@ -18,7 +18,7 @@
    <main>
         <section class="selection-content">
             <button href="#" type="button" class="selection-btn antiquewhite-color">Segitiga</button>
-            <button href="#" type="button" class="selection-btn aqua-color">Jajar Genjang</button>
+            <button href="#" type="button" onclick="tryDOM()" class="selection-btn aqua-color" id="jajar-genjang-btn">Jajar Genjang</button>
          </section>
 
          <section class="main-content">
@@ -33,7 +33,7 @@
                 </article>
     
                 <hr>
-    
+    <!-- left-content -->
                 <form>
                     <Header></Header>
                         <h1 class="luas-segitiga-form-header">Luas segitiga</h1>
@@ -49,11 +49,11 @@
     
                     <p id="result ">Hasil Perhitungan : </p>
     
-                    <button class="selection-btn-black1">Hitung</button>
+                    <button onclick="validateLuas()"  class="selection-btn-black1" type="button">Hitung</button>
                 </form>
     
              </aside>
-    
+<!-- right-content -->
              <aside>
                 <header>
                     <h1 class="luas-segitiga-header">Keliling Segitiga</h1>
@@ -72,11 +72,11 @@
     
                     <div class="input-wrapper">
                         <label for="panjang-alas">Panjang Alas</label>
-                        <input id="panjang-alas" type="number">
+                        <input id="panjang-alas-2" type="number">
                     </div>
                     <div class="input-wrapper">
                         <label for="tinggi">Tinggi</label>
-                        <input id="tinggi" type="number">
+                        <input id="tinggi-2" type="number">
                     </div>
     
                     <p id="result ">Hasil Perhitungan : </p>
@@ -87,5 +87,6 @@
              </aside>
          </section>
    </main>
+   <script src="js/script.js"></script>
 </body>
 </html> 

@@ -1,4 +1,11 @@
-// javascript
-// var massage 1
-// let masaange 2
-// const massage 3
+
+function validateLuas() {
+    let panjangAlas = document.getElementById('panjang-alas').value;
+    let tinggi = document.getElementById('tinggi').value;
+
+    if (panjangAlas == '' && tinggi == '') {
+        alert('Form masih kosong')
+    }
+    console.log(panjangAlas);
+    console.log(tinggi);
+}
